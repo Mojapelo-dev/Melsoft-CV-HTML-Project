@@ -1,0 +1,44 @@
+body {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+
+.circle-frame  {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #000;
+    float: left;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+
+ .circle-frame img {
+    width: 100%;
+    height: auto;
+    display: block;
+} 
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+.horizontal-line {
+    clear: both;
+    border-top: 2px solid #000;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.gold-star {
+    color:gold;
+    font-size: 24px;
+}
